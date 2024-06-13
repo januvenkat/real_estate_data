@@ -1,19 +1,15 @@
 # About the project  
-Project: Sales Superstore A-to-Z-Market Exploratory Data
-Analysis with Python
-The objective is to perform a products sales analysis from an online shop (A-to-
-Z-Market). The online shop needs to manage multiple products categories sales
-across multiple physical stores locations.
-You are the data analysts’ team for this online shop.
-The goal of the project is to analyze sales history data and identify key points
-that made the business profitable or not. These key points should be clear
-enough to help designing a new sales profitability strategy for the next year by
-the marketing director of A-to-Z-Market.
-The dataset for the analysis (sales.csv) contains the last 4-years sales data from
-different regional stores in United States. It contains all details for each customer
-order (dates, localization, products categories, shipping mode, quantity,
-discounts, profitability, etc.).
-You can use the profit ratio as a profitability indicator in your analysis. For a single
-sale, the profit ratio is defined as the ratio between the amount of profit and the
-amount of sale. However, when aggregating sales, the profit ratio should be the
-ratio between the sum of profits and the sum of sales for each aggregated group.
+The objective is to perform real estate data exploration near the city of Toulouse.
+Your company (Immo-Inv) is a real estate agency who wants to understand very
+well the real estate market in Toulouse and its suburbs. You are the big data
+analyst of the company and you have access to a 5-years real data history of
+houses and apartments sales transactions in Toulouse and its suburbs. The
+dataset contains details for each transaction: sale date, localization (city, postal
+code), type of residence, type of sale, land area, living area, number of rooms,
+price, etc.).
+You should use Spark for this analysis because you should be able to apply your
+analysis to a dataset with the entire real estate market in France for instance (big
+data file). But for presenting your key results, you can of course use python
+visualization libraries such as seaborn or other librairies.
+Challenges here are to explore all possible aspects of this real estate market
+(variables, relationships between variables, trends, patterns, outliers, etc.).
