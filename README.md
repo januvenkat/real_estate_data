@@ -1,15 +1,21 @@
-# About the project  
-The objective is to perform real estate data exploration near the city of Toulouse.
-Your company (Immo-Inv) is a real estate agency who wants to understand very
-well the real estate market in Toulouse and its suburbs. You are the big data
-analyst of the company and you have access to a 5-years real data history of
-houses and apartments sales transactions in Toulouse and its suburbs. The
-dataset contains details for each transaction: sale date, localization (city, postal
-code), type of residence, type of sale, land area, living area, number of rooms,
-price, etc.).
-You should use Spark for this analysis because you should be able to apply your
-analysis to a dataset with the entire real estate market in France for instance (big
-data file). But for presenting your key results, you can of course use python
-visualization libraries such as seaborn or other librairies.
-Challenges here are to explore all possible aspects of this real estate market
-(variables, relationships between variables, trends, patterns, outliers, etc.).
+#Project Overview
+
+This project focuses on analyzing real estate data for Toulouse and its suburbs. Immo-Inv, a real estate agency, aims to gain a deep understanding of the local real estate market. The dataset spans five years and includes details of houses and apartment sales transactions in Toulouse and its surrounding areas.
+
+The goal of this analysis is to explore various aspects of the real estate market, identify relationships between variables, uncover trends, and detect patterns or outliers. The analysis is designed to be scalable, allowing for application to larger datasets, such as the entire real estate market in France.
+
+The project utilizes Apache Spark for big data processing and Python for visualization and result presentation.
+
+#Dataset Details:
+The dataset contains the following attributes for each transaction:
+
+SaleDate: Date of the transaction.
+SaleType: Type of sale (e.g., new sale, resale).
+Price: Sale price of the property.
+PostCode: Postal code of the property.
+City: City where the property is located.
+NbRooms: Number of rooms in the property.
+NbLots: Number of lots associated with the transaction.
+ResidenceType: Type of residence (e.g., house, apartment).
+LivingArea: Size of the living area in square meters.
+LandArea: Size of the land in square meters.
