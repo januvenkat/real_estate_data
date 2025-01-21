@@ -10,6 +10,7 @@ The project utilizes Apache Spark for big data processing and Python for visuali
 The dataset contains the following attributes for each transaction:
 
 SaleDate: Date of the transaction.
+
 SaleType: Type of sale (e.g., new sale, resale).
 Price: Sale price of the property.
 PostCode: Postal code of the property.
