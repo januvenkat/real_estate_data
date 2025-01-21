@@ -1,4 +1,4 @@
-#Project Overview
+##Project Overview
 
 This project focuses on analyzing real estate data for Toulouse and its suburbs. Immo-Inv, a real estate agency, aims to gain a deep understanding of the local real estate market. The dataset spans five years and includes details of houses and apartment sales transactions in Toulouse and its surrounding areas.
 
@@ -6,7 +6,7 @@ The goal of this analysis is to explore various aspects of the real estate marke
 
 The project utilizes Apache Spark for big data processing and Python for visualization and result presentation.
 
-#Dataset Details:
+##Dataset Details:
 The dataset contains the following attributes for each transaction:
 
 SaleDate: Date of the transaction.
