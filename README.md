@@ -20,7 +20,7 @@ ResidenceType: Type of residence (e.g., house, apartment).
 LivingArea: Size of the living area in square meters.
 LandArea: Size of the land in square meters.
 
-#**Findings**:
+# Findings:
 After running the analysis above the followed insights are highlighted:
   1. **Average Price Trends**: The analysis reveals that the average price per square meter in Toulouse is approximately 11838.16 euros. Notably, there is a considerable variation in prices for smaller apartments, indicating a diverse real estate market.
   2. **Regional Price Dynamics**: Postcode 31000 emerges as a standout area with the highest average price per square meter, while prices generally decrease from postcode 31400 onwards. This suggests distinct regional pricing dynamics within the city.
